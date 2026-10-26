@@ -1,0 +1,23 @@
+﻿# Variables de entorno y credenciales
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Archivos temporales de Angular
+.angular/
+**/.angular/
+
+# Archivos de compilación
+dist/
+coverage/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
